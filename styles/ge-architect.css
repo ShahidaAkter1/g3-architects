@@ -192,6 +192,7 @@ border-radius: 8px;
     font-size: 16px;
     color: #727272;
     margin-bottom: 40px;
+    max-width: 380px;
 }
 
 .div-section{
@@ -463,6 +464,9 @@ h2{
     margin-top: 350px;
   
 }
+.factscontainer{
+    margin-left: -40px;
+}
 .fact-title {
     font-weight: 700;
     font-size: 30px;
@@ -479,6 +483,7 @@ h2{
 .popularcontainer{
     margin-top: 150px;
     margin-left: 50px;
+    max-width: 300px;
 }
 
 .love-enjoy .pic-arc{
