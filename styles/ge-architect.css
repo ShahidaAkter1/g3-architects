@@ -10,6 +10,9 @@
     margin-bottom: 100px;
     background: rgba(255, 144, 14, 0.1);
 }
+.header:hover{
+    border: 2px solid blue;
+}
 .header nav{
     display: flex;
     gap: 500px;
@@ -101,6 +104,9 @@ ul li{
     margin-top: 30px;
     padding: 10px;
 }
+.feature:hover{
+    border: 2px solid blue;
+}
 .pic{
     
     display: grid;
@@ -108,13 +114,15 @@ ul li{
     gap: 5px;
     
 }
-/* img{
-     height: 100%; 
-    width: 100%;
-}  */
+
+.team:hover{
+    border: 2px solid blue;
+}
 .pic > team{
     flex: 1;
 }
+
+
 
 /* Love & enjoy section */
 hr{
@@ -215,12 +223,20 @@ border-radius: 8px;
 .ribon .pic-h1{
     text-align: center;
 }
+.ribon p{
+    text-align: center;
+}
 /* sponsor & icon */
 
 .sponsor{
     text-align: center;
     margin-top: 200px;
    
+}
+.sponsor:hover{
+    border: 2px solid blue;
+    margin-left:  300px;
+    margin-right:  300px;
 }
 .sponsor-title{
     font-weight: 700;
@@ -243,6 +259,9 @@ border-radius: 8px;
     height: 100px;
     margin:  100px 150px 100px 150px;
    
+}
+.icon-img:hover{
+    border: 1px solid blue;
 }
 
 /* popular collection */
@@ -326,4 +345,9 @@ h2{
 }
 .copyright{
     padding: 30px;
+}
+.copyright h2:hover{
+    border: 1px solid blue;
+    margin-left: 300px;
+    margin-right: 300px;
 }
