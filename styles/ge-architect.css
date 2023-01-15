@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+/* hearder section */
+.header{
+    margin-bottom: 100px;
+    background: rgba(255, 144, 14, 0.1);
+}
+.header nav{
+    display: flex;
+    gap: 500px;
+    padding: 87px 100px 80px 120px;
+   
+}
+ul{
+    display:flex;
+    gap: 34px;
+}
+ul li{
+    list-style: none;
+}
+
+/* Brand new group architect */
+
+
+.new-group{
+    text-align: center;
+   
+}
+.brand{
+    margin-top: 30px;
+    padding: 10px;
+}
+
+
+.title{
+    margin-bottom: 16px;
+    font-size: 52px;
+    font-weight: 700px;
+    color: #3A3A3A;
+
+}
+.description{
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-weight: 600px;
+    color: #3A3A3A;
+}
+.btn{
+    background: #FF900E;
+    border-radius: 8px;
+    width: 180px;
+    height: 64px;
+    color: white;
+    margin-bottom: 30px;
+}
+.pic-camera{
+    margin-bottom: 30px;
+
+}
+.pic-camera img{
+    width: 80%;
+    height: 400px;
+    margin: 0px auto;
+ } 
+
+ /* Feature section */
+ .title{
+    margin-bottom: 16px;
+    font-size: 40px;
+    font-weight: 700px;
+    color:black;
+
+}
+.description{
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-weight: 600px;
+    color: #3A3A3A;
+}
+.btn{
+    background: #FF900E;
+    border-radius: 8px;
+    width: 180px;
+    height: 64px;
+    color: white;
+    margin-bottom: 30px;
+}
+ .freture-product{
+    display: flex;
+    gap:133px;
+    justify-content: center;
+    margin: 60px 165px;
+    
+}
+.feature{
+    margin-top: 30px;
+    padding: 10px;
+}
+.pic{
+    
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 5px;
+    
+}
+/* img{
+     height: 100%; 
+    width: 100%;
+}  */
+.pic > team{
+    flex: 1;
+}
+
+/* Love & enjoy section */
+hr{
+    height: 50px;
+    color:orangered;
+} 
+.title{
+    margin-bottom: 16px;
+    font-size: 40px;
+    font-weight: 700px;
+    color:black;
+
+}
+.description{
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-weight: 600px;
+    color: #3A3A3A;
+}
+.btn-button{
+    background: #FF900E;
+    border-radius: 8px;
+    width: 250px;
+    height: 150px;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+ .love-enjoy{
+    display: flex;
+    gap:133px;
+    justify-content: center;
+    margin: 60px 165px;
+}
+.feature{
+    margin-top: 30px;
+    padding: 10px;
+}
+/* .pic-arc{
+    margin:0 auto;
+    width: 50%;
+    height: 100px; 
+} */
+img{
+    height: 80%;
+    width: 80%;
+}   
+.hr{
+    display: flex;
+}
+.version{
+    font-size: 15px;
+  padding: 10px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+border-radius: 8px;
+}
+.love-enjoy:hover{
+    border: 2px solid blueviolet;
+}
+
+
+
+/* facts section */
+.facts{
+    margin-left: 130px;
+}
+.fact-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 10px;
+}
+.fact-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 40px;
+}
+
+.div-section{
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    height: 100px;
+    margin-bottom: 100px;
+}
+.ribon{
+    width: 200px;
+    height: 220px;
+    border: 2px solid orange;
+    padding: 20px;
+}
+.ribon:hover{
+    border: 1px solid blue;
+    transition: width 2s, height 4s;
+}
+.ribon .pic-h1{
+    text-align: center;
+}
+/* sponsor & icon */
+
+.sponsor{
+    text-align: center;
+    margin-top: 200px;
+   
+}
+.sponsor-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    line-height: 53px;
+    margin-bottom: 10px;
+}
+.sponsor-description{
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+    line-height: 26px;
+    margin-bottom: 40px;
+}
+.icon{
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    height: 100px;
+    margin:  100px 150px 100px 150px;
+   
+}
+
+
+
+/* footer */
+.footer{
+    text-align: center;
+    background: #FFF4E7;
+    height: 100px;
+    width:100% ; 
+    font-size: 14px;
+    font-weight: 700px;
+    margin-top: 50px;
+}
+.copyright{
+    padding: 30px;
+}
